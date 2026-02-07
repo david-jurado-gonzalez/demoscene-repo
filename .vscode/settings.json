@@ -1,4 +1,15 @@
 {
+    //"python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    //"python.terminal.activateEnvironment": true,
+//
+    //"terminal.integrated.profiles.linux": {
+    //    "demoscene (source activate)": {
+    //        "path": "bash",
+    //        "args": ["-c", "source activate; exec bash"]
+    //    }
+    //},
+    //"terminal.integrated.defaultProfile.linux": "demoscene (source activate)",
+//
     "files.exclude": {
         ".ackrc": true,
         "cscope.out": true,
@@ -10,6 +21,7 @@
 
     // Choose effect to build. Use the current opened file's folder name
     // to identify the effect or specify the exact effect name.
-    // "effect": "${fileDirnameBasename}",
-    "effect": "anim",
+    "effect": "${fileDirnameBasename}",
+    "makefile.configureOnOpen": false,
+    //"effect": "anim",
 }
