@@ -1,3 +1,10 @@
+/*
+ * effect.h — Sistema de efectos para demos/juegos en Amiga.
+ *
+ * Cada efecto se registra con EFFECT() y define: Load (precalcular en background),
+ * UnLoad, Init (reservar memoria, copper, DMA), Kill, Render (un frame), VBlank (opcional).
+ * El bucle principal llama EffectLoad → EffectInit → EffectRun (Render cada frame) → EffectKill → EffectUnLoad.
+ */
 #ifndef __EFFECT_H__
 #define __EFFECT_H__
 

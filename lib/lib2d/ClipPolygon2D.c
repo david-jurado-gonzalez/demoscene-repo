@@ -1,3 +1,8 @@
+/*
+ * ClipPolygon2D — Recorte de polígono 2D contra ClipWin (Sutherland-Hodgman).
+ * clipFlags indica qué aristas usar (PF_LEFT, PF_TOP, PF_RIGHT, PF_BOTTOM). Recorta
+ * en ese orden; in/out pueden alternar entre dos buffers. Devuelve el número de vértices del polígono resultante.
+ */
 #include <2d.h>
 
 static bool CheckInside(Point2D *p, u_short plane) {

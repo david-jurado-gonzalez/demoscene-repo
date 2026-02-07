@@ -1,3 +1,8 @@
+/*
+ * Empty — Efecto plantilla: no dibuja nada, solo incrementa el color de fondo y llama
+ * a OptimizedFunction() (para medir o probar código asm). Útil como base para nuevos
+ * efectos o para comprobar el sistema Load/Init/Kill/Render/VBlank.
+ */
 #include <effect.h>
 
 /* Search following header files for useful procedures. */

@@ -1,3 +1,8 @@
+/*
+ * LoadRotate3D — Carga la matriz M con la rotación compuesta Rx(ax)*Ry(ay)*Rz(az)
+ * (ángulos en unidades de tabla sin/cos, típicamente 0..0xFFF). Fórmula explícita
+ * para evitar composición de 3 matrices; usa normfx para fixed-point.
+ */
 #include <3d.h>
 #include <fx.h>
 

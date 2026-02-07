@@ -1,3 +1,9 @@
+/*
+ * ClipLine2D — Recorte de segmento 2D contra la ventana ClipWin (Box2D global).
+ * Algoritmo de Liang-Barsky: calcula parámetros t de intersección con las 4 aristas
+ * del rectángulo y recorta el segmento. Usa div16 (divs en 68000) para las divisiones.
+ * Devuelve true si queda parte visible y actualiza line->x1,y1,x2,y2.
+ */
 #include <2d.h>
 #include <fx.h>
 

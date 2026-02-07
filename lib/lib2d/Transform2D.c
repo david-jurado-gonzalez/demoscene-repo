@@ -1,3 +1,8 @@
+/*
+ * Transform2D — Aplica una matriz 2D (con traslación) a n puntos.
+ * Optimizado para 68000: punteros a short, producto con normfx (fixed-point 4.12).
+ * Usado por formas 2D, animaciones de polígonos y efectos que transforman puntos en pantalla.
+ */
 #include <2d.h>
 #include <fx.h>
 

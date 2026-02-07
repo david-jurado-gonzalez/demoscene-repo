@@ -1,3 +1,8 @@
+/*
+ * CopSetupBitplanes — Añade a la lista copper los MOVE que cargan los punteros
+ * de bitplanes (bplpt) y el modulo (bpl1mod, bpl2mod). Devuelve el puntero a los
+ * pares de instrucciones para poder actualizarlos cada frame en doble buffer.
+ */
 #include <copper.h>
 
 CopInsPairT *CopSetupBitplanes(CopListT *list, const BitmapT *bitmap,

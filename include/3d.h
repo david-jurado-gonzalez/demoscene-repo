@@ -1,3 +1,8 @@
+/*
+ * 3d.h — API de la librería 3D: puntos, matrices 3×3+traslación, mallas (Mesh3D),
+ * objetos (Object3D), caras y aristas. Transformaciones, visibilidad de caras (back-face culling),
+ * ordenación por Z e iluminación por cara. Los datos de malla suelen generarse con obj2c.
+ */
 #ifndef __3D_H__
 #define __3D_H__
 

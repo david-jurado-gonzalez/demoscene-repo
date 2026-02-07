@@ -1,3 +1,9 @@
+/*
+ * GameOfLife — Efecto del Juego de la Vida de Conway (reglas clásicas: 2–3 vecinos
+ * sobreviven, 3 nacen). El siguiente estado se calcula con el blitter usando minterms
+ * y varias pasadas; el resultado se duplica en X (CPU) y en Y (copper). Estados previos
+ * se muestran en planos con colores más oscuros (historial circular).
+ */
 #include "bitmap.h"
 #include "blitter.h"
 #include "copper.h"

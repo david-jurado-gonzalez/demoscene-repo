@@ -1,3 +1,8 @@
+/*
+ * Transform3D — Aplica una matriz 3×3 + traslación a n puntos 3D.
+ * Cada punto (x,y,z) se multiplica por M y se suma la traslación; resultado en fixed-point
+ * con normfx. Usado para pasar vértices de espacio objeto a mundo o cámara.
+ */
 #include <3d.h>
 #include <fx.h>
 

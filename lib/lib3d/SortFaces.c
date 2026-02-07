@@ -1,3 +1,8 @@
+/*
+ * SortFaces — Ordena las caras visibles del objeto por Z medio (suma de z de los 3 vértices).
+ * Rellena visibleFace con pares (z, índice_cara) y llama a SortItemArray para pintar
+ * de atrás adelante (painter's algorithm). Incluye un guard (0, -1) al final de la lista.
+ */
 #include <3d.h>
 
 void SortFaces(Object3D *object) {

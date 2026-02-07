@@ -1,3 +1,8 @@
+/*
+ * blitter.h — API del blitter de Amiga: copia, relleno, líneas, operaciones lógicas
+ * (minterms), máscaras. Macros para bltcon0/bltcon1 (ABC, SRCA, ASHIFT, LINE_OR, etc.).
+ * WaitBlitter, BlitterStop; wrappers BitmapCopy, BlitterFillArea, BlitterLine, etc.
+ */
 #ifndef __BLITTER_H__
 #define __BLITTER_H__
 

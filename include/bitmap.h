@@ -1,3 +1,8 @@
+/*
+ * bitmap.h — Estructura BitmapT para playfields de Amiga: ancho, alto, profundidad (planos),
+ * bytesPerRow, flags (BM_CLEAR, BM_INTERLEAVED, etc.). Funciones para crear/liberar bitmaps
+ * y prepararlos para DMA (BitmapMakeDisplayable). Los planos deben estar en chip RAM.
+ */
 #ifndef __BITMAP_H__
 #define __BITMAP_H__
 

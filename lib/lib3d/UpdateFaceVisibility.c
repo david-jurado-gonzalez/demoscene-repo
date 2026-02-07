@@ -1,3 +1,10 @@
+/*
+ * UpdateFaceVisibility — Back-face culling e iluminación por cara para Object3D.
+ * Para cada cara calcula el producto escalar (normal · vector hacia cámara); si >= 0
+ * la cara es visible. Entonces calcula un factor de luz con la tabla InvSqrt[] (sin usar
+ * sqrt en tiempo real) y guarda en face->flags un color 0..15. Caras con material < 0
+ * se tratan como de doble cara (se usa la normal invertida si el dot es negativo).
+ */
 #include <3d.h>
 
 static u_short InvSqrt[];

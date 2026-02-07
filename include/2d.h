@@ -1,3 +1,8 @@
+/*
+ * 2d.h — API de la librería 2D: matrices 2×2+traslación, transformación de puntos,
+ * ventana de recorte (ClipWin), recorte de líneas (Liang-Barsky) y polígonos (Sutherland-Hodgman).
+ * Formas (ShapeT) para conjuntos de puntos y polígonos indexados.
+ */
 #ifndef __2D_H__
 #define __2D_H__
 
