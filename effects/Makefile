@@ -51,6 +51,7 @@ SUBDIRS := \
 	shapes \
 	showpchg \
 	spooky-tree \
+	starfox \
 	stencil3d \
 	stripes \
 	textscroll \
